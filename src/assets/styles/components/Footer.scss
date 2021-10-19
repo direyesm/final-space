@@ -1,0 +1,30 @@
+@import '../App.scss';
+
+.footer-img {
+  -webkit-border-radius: 30px;
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer {
+  @include flexBetCen;
+  margin: 0 50px;
+  height: 75px;
+}
+
+.footer__made {
+  @include flexStaSta;
+}
+
+.logo {
+  margin-left: 5px;
+}
+
+.logo-img {
+  color: #00a9e6;
+}
+
